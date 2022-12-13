@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        padding: 5px;
+        font-size: 15px;
+        background-color: lightgrey;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        text-align: center;
+      }
+      .main {
+        background-color: hsl(0, 0%, 100%);
+        padding: 30px;
+        width: 576px;
+        height: 705px;
+        margin: auto;
+        border-radius: 8px;
+        text-align: center;
+      }
+      .scan {
+        border-radius: 8px;
+      }
+      .desc {
+        color: #a9a6a6;
+      }
+      @media (max-width: 375px) {
+        .main,
+        .qr-scan {
+          flex: 100%;
+        }
+      }
+      @media (max-width: 1440px) {
+        .main,
+        .qr-scan {
+          flex: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="qr-scan">
+        <img class="scan" src="./images/image-qr-code.png" alt="qr-code" />
+      </div>
+      <h4>Improve your front-end<br />skills by building projects</h4>
+      <p class="desc">
+        Scan the QR code to visit Frontend <br />Mentor and take your coding
+        skills to<br />
+        the next level
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Baruch Prince</a>.
+    </div>
+  </body>
+</html>
